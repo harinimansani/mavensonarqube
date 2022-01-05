@@ -2,9 +2,11 @@ package com.brillio;
 
 public class SonarQube {
 	
-	public static void main(String[] args) {
-		int a=20;
-		System.out.println("maven sonarqube integration");
+	public int add(int a,int b){
+		return a+b;
 	}
-
+	
+	public int sub(int a,int b){
+		return a-b;
+	}
 }
