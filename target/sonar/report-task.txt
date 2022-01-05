@@ -1,0 +1,6 @@
+projectKey=com.brillio:mavenprojectforsonarqube
+serverUrl=http://localhost:4950
+serverVersion=9.2.4.50792
+dashboardUrl=http://localhost:4950/dashboard?id=com.brillio%3Amavenprojectforsonarqube
+ceTaskId=AX4lxdxLS1tEcSUB_kN6
+ceTaskUrl=http://localhost:4950/api/ce/task?id=AX4lxdxLS1tEcSUB_kN6
