@@ -2,8 +2,8 @@ FROM tomcat:8.0.20-jre8
 
 EXPOSE 8080
 
-COPY target/mavenprojectforsonarqube-0.0.1-SNAPSHOT.jar /usr/local/tomcat/webapps/mavensonrqube.jar 
+COPY target/mavenprojectforsonarqube-0.0.1-SNAPSHOT.jar 
 
-WORKDIR /usr/local/tomcat/webapps/mavensonrqube.jar
+WORKDIR target/mavenprojectforsonarqube-0.0.1-SNAPSHOT.jar
 
 ENTRYPOINT ["java", "-jar", "mavenprojectforsonarqube-0.0.1-SNAPSHOT.jar"]
