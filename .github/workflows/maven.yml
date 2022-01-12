@@ -29,6 +29,6 @@ jobs:
       uses: mr-smithers-excellent/docker-build-push@v4
       with:
         image: harinimansani/demo
-        registry: https://hub.docker.com/repository/docker
+        registry: docker.io
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
